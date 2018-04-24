@@ -1,0 +1,16 @@
+// 请求数据公共参数
+export const commonParams = {
+    g_tk: 1928093487,
+    inCharset: 'utf-8',
+    outCharset: 'utf-8',
+    notice: 0,
+    format: 'jsonp'
+}
+
+// 请求接口回调函数名称
+export const options = {
+    param: 'jsonpCallback',
+}
+
+// 接口成功状态值
+export const ERR_OK = 0;
